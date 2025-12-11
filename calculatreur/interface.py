@@ -14,7 +14,7 @@ def demander_infos():
             return poids, taille
         except ValueError:
             print("Cette entrée est invalide, veuillez entrer seulement des nombres")
-    # Demande poids et taille
+    # Demande poids et taille.
 
 def afficher_resultat(imc, categorie):
     pass
