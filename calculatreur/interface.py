@@ -17,8 +17,8 @@ def demander_infos():
     # Demande poids et taille.
 
 def afficher_resultat(imc, categorie):
+    return f"Votre indice de masse corporelle est: {imc}, Vous êtes dans la catégorie {categorie}"
     pass
-    # Affiche joliment
+    # Affiche joliment.
 
 
-demander_infos()
